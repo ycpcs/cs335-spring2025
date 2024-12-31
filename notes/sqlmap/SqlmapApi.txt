@@ -1,0 +1,88 @@
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
+public class SqlmapApi
+{
+	SqlmapRequest sqlmapRequest;
+
+	public SqlmapApi(SqlmapRequest sr)
+	{
+		sqlmapRequest = sr;
+	}
+	public async Task<string> NewTaskAsync()
+	{
+		var response = JObject.Parse(await sqlmapRequest.GetAsync("/task/new"));
+		var taskId = response.SelectToken("taskid");
+		if (taskId != null)
+		{
+			return taskId.ToString();
+		}
+		return string.Empty;
+	}
+	public async Task<Dictionary<string, object?>> ListOptionsAsync(string taskid)
+	{
+		var options = new Dictionary<string, object?>();
+
+		JObject response = JObject.Parse(await sqlmapRequest.GetAsync($"/option/{taskid}/list"));
+		JObject? optionsObject = response["options"] as JObject;
+
+		if (optionsObject != null)
+		{
+			foreach (var pair in optionsObject)
+			{
+				options.Add(pair.Key as String, pair.Value);
+			}
+		}
+		return options;
+	}
+	public async Task<bool> DeleteTaskAsync(string taskid)
+	{
+		var response = JObject.Parse(await sqlmapRequest.GetAsync($"/task/{taskid}/delete"));
+		var success = response.SelectToken("success");
+		if (success != null)
+		{
+			return (bool)success;
+		}
+		return false;
+	}
+	public async Task<bool> StartTaskAsync(string taskID, Dictionary<string, object> opts)
+	{
+		string json = JsonConvert.SerializeObject(opts);
+		JToken response = JObject.Parse(await sqlmapRequest.PostAsync($"/scan/{taskID}/start", json));
+		var success = response.SelectToken("success");
+		if (success != null)
+		{
+			return (bool)success;
+		}
+		return false;
+	}
+	public async Task<KeyValuePair<string, object>> GetScanStatusAsync(string taskid)
+	{
+		JObject response = JObject.Parse(await sqlmapRequest.GetAsync($"/scan/{taskid}/status"));
+
+		var key = (string)response["status"];
+		object value = null;
+
+		if (response["returncode"].Type != JTokenType.Null)
+			value = (int)response["returncode"];
+
+		return new KeyValuePair<string, object>(key, value);
+	}
+	public async Task<List<SqlmapLog>> GetLogAsync(string taskid)
+	{
+		JObject response = JObject.Parse(await sqlmapRequest.GetAsync($"/scan/{taskid}/log"));
+		JArray items = response["log"] as JArray;
+
+		List<SqlmapLog> logs = new List<SqlmapLog>();
+		foreach (var item in items)
+		{
+			SqlmapLog i = new SqlmapLog();
+			i.Message = (string)item["message"];
+			i.Level = (string)item["level"];
+			i.Time = (string)item["time"];
+
+			logs.Add(i);
+		}
+		return logs;
+	}
+}

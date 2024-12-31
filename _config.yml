@@ -1,0 +1,7 @@
+baseurl: "//ycpcs.github.io/cs335-spring2025"
+markdown: kramdown
+highlighter: rouge
+coursename: "CS 335"
+
+kramdown:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
