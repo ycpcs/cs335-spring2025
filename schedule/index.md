@@ -11,25 +11,25 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 >  Week    | Date     | Topic        | Readings   | Assignments & Labs                                  
 > -------- | -------- | ------------ | ---------- | -------------------------------------
 > 01 | Jan 28 | Introduction and Course Philosophy, [Lab Setup](../labs/setup.html), Linux Basics | | [Ethics](../assignments/ethics.html)
-> 01 | Jan 30 | [Reverse Shell](../slides/09_Reverse_Shell.pdf) | IS: Ch 14 |
+> 01 | Jan 30 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
 > | | | |
-> 02 | Feb 04 | [Buffer Overflow Attack](../slides/04_Buffer_Overflow.pdf) | |
+> 02 | Feb 04 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href="schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
 > 02 | Feb 06 | Buffer Overflow: Hijack Program Execution Flow | |
 > | | | |
-> 03 | Feb 11 | [Shellshock Attack](../slides/03_Shellshock.pdf) | IS: Ch 26 |
+> 03 | Feb 11 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 |
 > 03 | Feb 13 | [Network Basics](../slides/Network_Basics.pdf) | IS: Ch 1 |
 > | | | |
 > 04 | Feb 18 | ARP Spoofing | IS: Ch 2 |
 > 04 | Feb 20 | IP and ICMP | IS: Ch 3 |
 > | | | |
-> 05 | Feb 25 | [Attacks on TCP Protocol](../slides/16_TCP_Attack.pdf) | IS: Ch 6 |
+> 05 | Feb 25 | [Attacks on TCP Protocol](../slides/TCP_Attack.pdf) | IS: Ch 6 |
 > 05 | Feb 27 | TCP Session Hijacking | IS: Ch 6 |
 > | | | |
-> 06 | Mar 04 | UDP | |
+> 06 | Mar 04 | UDP | IS: Ch 15 |
 > 06 | Mar 06 | _Winter Break_ | |
 > | | | |
-> 07 | Mar 11 | DNS | IS: Ch 10 |
-> 07 | Mar 13 | | |
+> 07 | Mar 11 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
+> 07 | Mar 13 | DNS Attacks | |
 > | | | |
 > 08 | Mar 18 | __Exam 1__ | | 
 > 08 | Mar 20 | Exam Review | |
