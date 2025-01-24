@@ -9,13 +9,14 @@ Proposal: due **Thursday, March 20<sup>th</sup>** by 11:59 PM
 Code, slides and report: due **Thursday, May 01<sup>th</sup>** by 11:59 PM
 
 Presentations:
-  - **Tuesday, May 13<sup>th</sup>**
-  - **Thursday, May 15<sup>th</sup>**
+- **Tuesday, May 13<sup>th</sup>**
+- **Thursday, May 15<sup>th</sup>**
 
 ### Topics already picked
 
 | | |
 |---|---|
+Will post your topics here 
 
 ### Introduction
 
