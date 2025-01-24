@@ -4,26 +4,18 @@ course_number: CS335
 title: "Final Project"
 ---
 
-Proposal: due **Thursday, March 21<sup>th</sup>** by 11:59 PM
+Proposal: due **Thursday, March 20<sup>th</sup>** by 11:59 PM
 
-Code, slides and report: due **Thursday, May 02<sup>th</sup>** by 11:59 PM
+Code, slides and report: due **Thursday, May 01<sup>th</sup>** by 11:59 PM
 
 Presentations:
-  - **Tuesday, May 07<sup>th</sup>**
-  - **Thursday, May 09<sup>th</sup>**
+  - **Tuesday, May 13<sup>th</sup>**
+  - **Thursday, May 15<sup>th</sup>**
 
 ### Topics already picked
 
 | | |
 |---|---|
-Bluetooth Hacking | Ransomware |
-Linux kernel vulnerability like Dirty Pipe or Dirty Cow | The hidden cyber security risks posed by QR codes
-RFID Spoofing | RFID Spoofing (Flipper Zero)
-Bluetooth (Zero Day) | Computer Worm 
-Smart Contract Reentrancy | Cookies
-PKI, RSA and Secret Key Encryption | BGP Exploration and Attack 
-Malware Attachments | Camera Vulnerabilities
-Identity/2FA Spoofing | 
 
 ### Introduction
 

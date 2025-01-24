@@ -8,14 +8,14 @@ This is the website for CS 335, Cybersecurity, at York College. All information 
 
 ## Links
 
-<!-- * [Syllabus](syllabus/index.html)
+* [Syllabus](syllabus/index.html)
 * [Schedule](schedule/index.html)
 * [Assignments](assignments/index.html)
 * [Labs](labs/index.html)
-* Lab Setup: [VirtualBox 6.x](labs/setup.html) or [VirtualBox 7.0](labs/setupv7.html)
+* Lab Setup: [VirtualBox 7.0](labs/setupv7.html) or [VirtualBox 6.x](labs/setup.html)
 * [Resources](resources/index.html)
 * [Notes](notes/index.html)
-* <a href="https://cs.ycp.edu/marmoset" target="_blank">Marmoset (submission server)</a> -->
+* <a href="https://cs.ycp.edu/marmoset" target="_blank">Marmoset (submission server)</a>
 
 ## News
 <!-- * **May 09** &mdash; Final Project Presentations (as needed)
@@ -30,6 +30,7 @@ This is the website for CS 335, Cybersecurity, at York College. All information 
 * **Mar 21** &mdash; [Final Project](assignments/project.html) Proposal Due
 * **Mar 07** &mdash; Exam 1
 * **Feb 29** &mdash; [Buffer Overflow](labs/buffer_overflow.html) Attack Lab Due
-* **Feb 18** &mdash; [Shellshock](labs/shellshock.html) Attack Lab Due
-* **Jan 30** &mdash; Read and Sign [Ethics](assignments/ethics.html) Due -->
+* **Feb 18** &mdash; [Shellshock](labs/shellshock.html) Attack Lab Due-->
+
+* **Jan 30** &mdash; Read and Sign [Ethics](assignments/ethics.html) Due
 * **Jan 28** &mdash; Welcome back!

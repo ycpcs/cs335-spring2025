@@ -35,24 +35,30 @@ Wenliang Du, <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn
 
 Course Structure and Expectations
 ---------------------------------
-Class meetings will be primarily discussion of questions related to the topic and/or working on corresponding lab exercises which are designed to illustrate the concepts from the lecture notes. Thus you should come to each class meeting prepared to work on the lab with any questions on the material. A series of homework assignments that will consist of both written and programming parts and will be assigned at approximately 1-2 week intervals, to be completed individually.
+Class meetings will primarily involve discussing questions related to the topic and working on corresponding lab exercises designed to illustrate concepts from the lecture notes. Therefore, you should come to each class prepared to work on the lab and bring any questions you have about the material.
+
+Additionally, there will be a series of homework assignments, consisting of both written and programming parts, assigned at approximately 1-2 week intervals. These assignments are to be completed individually.
 
 A special thanks goes to Prof. Wenliang Du for his contributions on the [SEED security labs](https://seedsecuritylabs.org/Labs_20.04/) that will be adopted in our course projects.
 
-There's an old saying, usually attributed to Confucius, that goes something like "Give a man a fish, and you'll feed him for a day. Teach a man to fish, and you've fed him for a lifetime". You will only get as much out of this course as you choose to put into it. Since we will be covering a significant amount of material in the course at a rapid pace, it is imperative that you keep up by participating in the class meetings. You must have completed the lab activities up to and including the one for the current class meeting in order to receive assistance on the current programming assignment. The best way to learn about Cybersecurity is to practice. Our class meetings will be very hands on and interactive, so you will need to attend every session on time, having gone over any suggested readings, topics and applications, and respectfully participate in all class activities. To achieve the course objectives, you must take responsibility for your own learning and participate as an active learner. 
+There's an old saying, often attributed to Confucius: "Give a man a fish, and you'll feed him for a day. Teach a man to fish, and you'll feed him for a lifetime." You will only get as much out of this course as you choose to put into it. Since we will be covering a significant amount of material at a rapid pace, it is imperative that you keep up by participating in the class meetings.
+
+You must have completed the lab activities up to and including the one for the current class meeting in order to receive assistance on the current programming assignment. The best way to learn about Cybersecurity is through practice. Our class meetings will be very hands-on and interactive, so you will need to attend every session on time, having reviewed any suggested readings, topics, and applications, and respectfully participate in all class activities.
+
+To achieve the course objectives, you must take responsibility for your own learning and participate as an active learner.
 
 Learning Outcomes
 -----------------
 
 By the end of this course, you will be able to:
 
-- Know the various cyber security threats to networks, operating systems, web, database, and software applications
-- Demonstrate various cyber security ethical hacking techniques
-- Familiarize yourself with automated tools to analyze computer networks and applications for cyber security weaknesses
-- Understand various types of malware that can affect computer systems
-- Know techniques how attackers conduct various network, Web and application attacks
-- Understand countermeasures against network, operating systems, web and software applications threats and attacks
-- Conduct code analysis to determine security flaws and weaknesses in software
+- Understand the various cyber security threats to networks, operating systems, web, databases, and software applications.
+- Demonstrate ethical hacking techniques in cyber security.
+- Familiarize yourself with automated tools to analyze computer networks and applications for cyber security weaknesses.
+- Understand the different types of malware that can affect computer systems.
+- Learn techniques used by attackers to conduct network, web, and application attacks.
+- Understand countermeasures against threats and attacks on networks, operating systems, web, and software applications.
+- Conduct code analysis to identify security flaws and weaknesses in software.
 
  Policies
 -----------------
@@ -95,7 +101,7 @@ Readings from your text book will be assigned throughout the semester. You will 
 Homework and Lab Assignments
 -----------------
 
-Homework assignments will be based on the lab activities performed during class and may include both written and programming components. Collaboration on homework assignments is encouraged, but each student must submit their own assignment solutions that demonstrate their understanding of the material.
+Homework assignments will be derived from the lab activities conducted during class and may include both written and programming components. While collaboration is encouraged, each student must submit their own solutions to demonstrate their understanding of the material.
 
 All homework assignments will be submitted as a __single .pdf__ to <a href="https://cs.ycp.edu/marmoset/">https://cs.ycp.edu/marmoset/</a>. If you have handwritten solutions, PLEASE USE A SCANNER APP to generate the .pdf. You are responsible for ensuring your submission and screenshots are legible.
 
@@ -118,7 +124,7 @@ Any Programing assignments will be graded based on the following criteria:
 Final Project
 -----------------
 
-The project will be on a topic of interest _not_ covered in class. The intent of the final project is to provide an opportunity for the student to investigate a particular issue of interest in greater depth. There will be periodic milestones throughout the semester to encourage you to start early and make continuous progress as new material is covered. There will be a final demonstration of your project during the final exam period to highlight all the functionality present.
+The project will focus on a topic of interest that is _not_ covered in class. The goal of the final project is to allow students to explore a particular issue in greater depth. To ensure continuous progress, there will be periodic milestones throughout the semester. The project will culminate in a final demonstration during the exam period, showcasing all the functionality developed.
 
 Posting and submission of assignments and labs
 -----------------
@@ -198,7 +204,7 @@ You may work with other students on labs. However, we do expect you to complete 
 Definition of Academic Dishonesty
 -----------------
 
-Engaging in academic dishonesty is a violation of the school’s academic integrity policy and is not tolerated at York College. Examples of academic dishonesty include, but are not limited to, cheating on assignments or examinations, plagiarism (i.e. passing someone else’s words or ideas off as one’s own without proper attribution), improper paraphrasing, fabricating research, falsifying academic documents, handing in material completed for another course, and submitting work not done independently (unless part of an explicitly collaborative project).
+Engaging in academic dishonesty violates York College's academic integrity policy and is strictly prohibited. Examples include, but are not limited to, cheating on assignments or exams, plagiarism (using someone else's words or ideas without proper attribution), improper paraphrasing, fabricating research, falsifying academic documents, submitting work completed for another course, and turning in work not done independently (unless part of an explicitly collaborative project).
 
 Academic Integrity Procedure – Reporting
 -----------------
@@ -223,11 +229,6 @@ Communication Standards
 
 York College recognizes the importance of effective communication in all disciplines and careers. Therefore, students are expected to competently analyze, synthesize, organize, and articulate course material in papers, examinations and presentations. In addition, students should know and use communication skills current to their field of study, recognize the need for revision as part of their writing process, and employ standard conventions of English usage in both writing and speaking. Students may be asked to further revise assignments that do not demonstrate effective use of these communication skills.
 
-Auditing
------------------
-
-I expect some effort and commitment from students auditing the course. Therefore I require that you appear for all the labs and exams in the course. You are not required to turn in the programming assignments. Of course, you are welcome to do more, but you must meet this minimum requirement.
-
 Student Accessibility Services
 -----------------
 
@@ -236,11 +237,13 @@ In accordance with the provisions of Section 504 of the Rehabilitation Act of 19
 Advice
 -----------------
 
-- Don't wait until the last minute to start labs and assignments! They can be time-consuming. Pace yourself. Students who procrastinate generally suffer.
-- Ask the questions you have.
-- Participate actively in discussions! Don’t use slides to answer questions during class.
+- **Start Projects Early**: Don’t wait until the last minute to begin your projects. They can be time-consuming, so it’s important to pace yourself. Procrastination often leads to unnecessary stress and lower quality work.
+
+- **Ask Questions**: If you have any questions, don’t hesitate to ask. Engaging actively with the material helps deepen your understanding.
+
+- **Engage in Discussions**: Participate actively in class discussions. Avoid relying on slides to answer questions; instead, contribute your thoughts and insights directly.
 
 Disclaimer
 -----------------
 
-The instructor reserves the right to modify all policies within this syllabus including, but not limited to, number of assignments, weighting of assignments, and homework policies. Any significant changes will be announced to all students via Canvas.
+The instructor reserves the right to modify all policies within this syllabus including, but not limited to, number of assignments, weighting of assignments, and homework policies. Any significant changes will be announced to all students.

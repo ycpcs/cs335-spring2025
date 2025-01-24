@@ -35,10 +35,10 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 20 | Exam Review | |
 > | | | |
 > 09 | Mar 25 | Web security basics | IS: Ch 21 |
-> 09 | Mar 27 | Cross-Site Request Forgery | IS: Ch 22 |
+> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/10_Web_CSRF.pdf) | IS: Ch 22 |
 > | | | |
-> 10 | Apr 01 | Cross-Site Scripting | IS: Ch 23 |
-> 10 | Mar 03 | SQL Injection | IS: Ch 24 |
+> 10 | Apr 01 | [Cross-Site Scripting](../slides/11_Web_XSS.pdf) | IS: Ch 23 |
+> 10 | Mar 03 | [SQL Injection](../slides/12_Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
 > 11 | Apr 08 | Clickjacking  | IS: Ch 25 |
 > 11 | Apr 10 | | |
