@@ -110,6 +110,8 @@ may lead to the crash of the VM.
 to match the high resolution. As results, your VM will be very small on your screen.
 To make it bigger, adjust the `Scale Factor` in this setting.
 
+**Note 3**: I'm experiencing mixed results with 3D acceleration, so if you're having issues, try disabling it.
+
 #### Step 5.d: Network
 
 <!-- Go to the `Network` category, and select the `Adapter 1` tab. We will
