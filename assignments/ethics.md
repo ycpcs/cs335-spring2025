@@ -30,6 +30,7 @@ Understand what the law prohibits — you don’t want to end up like:
 - [Samy Kamkar <sup>*</sup>](https://www.scmagazine.com/home/security-news/myspace-superworm-creator-sentenced-to-probation-community-service/) sentenced to three years' probation with only one computer and no use of internet, 90 days' community service, and $15,000–$20,000 USD in restitution.
 - [Russian FSB Officers](https://www.justice.gov/usao-ndca/pr/us-charges-russian-fsb-officers-and-their-criminal-conspirators-hacking-yahoo-and) charged for hacking Yahoo and user emails. All of Yahoo’s 3 billion accounts were impacted.
 - Hacker for hire [Karim Baratov](https://www.justice.gov/usao-ndca/pr/international-hacker-hire-who-conspired-and-aided-russian-fsb-officers-sentenced-five) gets 5 years in prison and $2.25 million restitution fees.
+- Ross Ulbricht, aka [Dread Pirate Roberts](https://www.ice.gov/news/releases/ross-ulbricht-aka-dread-pirate-roberts-sentenced-life-federal-prison-creating), sentenced to life in federal prison for creating, operating ‘Silk Road’ website.
 
 Please review Ken Thomson's [Review on Trusting Trust](./files/Thompson_1984_ReflectionsonTrustingTrust.pdf) __and__ the college’s policy on [Acceptable Use](https://service.ycp.edu/TDClient/219/Portal/KB/ArticleDet?ID=7381) for guidelines concerning proper use of information technology.
 
