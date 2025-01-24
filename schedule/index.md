@@ -11,37 +11,37 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 >  Week    | Date     | Topic        | Readings   | Assignments & Labs                                  
 > -------- | -------- | ------------ | ---------- | -------------------------------------
 > 01 | Jan 28 | Introduction and Course Philosophy, [Lab Setup](../labs/setup.html), Linux Basics | | [Ethics](../assignments/ethics.html)
-> 01 | Jan 30 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
+> 01 | Jan 30 | [Root Causes for Vulnerability](../slides/01_Reason_Vulnerability.pdf) | [The Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
 > | | | |
-> 02 | Feb 04 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href="schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
-> 02 | Feb 06 | Buffer Overflow: Hijack Program Execution Flow | |
+> 02 | Feb 04 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
+> 02 | Feb 06 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 |
 > | | | |
-> 03 | Feb 11 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 |
-> 03 | Feb 13 | [Network Basics](../slides/Network_Basics.pdf) | IS: Ch 1 |
+> 03 | Feb 11 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href="schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
+> 03 | Feb 13 | Buffer Overflow: Hijack Program Execution Flow | |
 > | | | |
-> 04 | Feb 18 | ARP Spoofing | IS: Ch 2 |
-> 04 | Feb 20 | IP and ICMP | IS: Ch 3 |
+> 04 | Feb 18 | [Network Basics](../slides/Network_Basics.pdf) | IS: Ch 1 |
+> 04 | Feb 20 | ARP Spoofing | IS: Ch 2 |
 > | | | |
-> 05 | Feb 25 | [Attacks on TCP Protocol](../slides/TCP_Attack.pdf) | IS: Ch 6 |
-> 05 | Feb 27 | TCP Session Hijacking | IS: Ch 6 |
+> 05 | Feb 25 | IP and ICMP | IS: Ch 3 |
+> 05 | Feb 27 | [Attacks on TCP Protocol](../slides/TCP_Attack.pdf) | IS: Ch 6 |
 > | | | |
-> 06 | Mar 04 | UDP | IS: Ch 15 |
+> 06 | Mar 04 | TCP Session Hijacking | IS: Ch 6 |
 > 06 | Mar 06 | _Winter Break_ | |
 > | | | |
-> 07 | Mar 11 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
-> 07 | Mar 13 | DNS Attacks | |
+> 07 | Mar 11 | __Exam 1__
+> 07 | Mar 13 | | | 
 > | | | |
-> 08 | Mar 18 | __Exam 1__ | | 
-> 08 | Mar 20 | Exam Review | |
+> 08 | Mar 18 | UDP | IS: Ch 15 |
+> 08 | Mar 20 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |
 > | | | |
-> 09 | Mar 25 | Web security basics | IS: Ch 21 |
-> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/10_Web_CSRF.pdf) | IS: Ch 22 |
+> 09 | Mar 25 | DNS Attacks | |
+> 09 | Mar 27 | Web Security Basics | IS: Ch 21 |
 > | | | |
-> 10 | Apr 01 | [Cross-Site Scripting](../slides/11_Web_XSS.pdf) | IS: Ch 23 |
-> 10 | Mar 03 | [SQL Injection](../slides/12_Web_SQL_Injection.pdf) | IS: Ch 24 |
+> 10 | Apr 01 | [Cross-Site Request Forgery](../slides/10_Web_CSRF.pdf) | IS: Ch 22 |
+> 10 | Mar 03 | [Cross-Site Scripting](../slides/11_Web_XSS.pdf) | IS: Ch 23 |
 > | | | |
-> 11 | Apr 08 | Clickjacking  | IS: Ch 25 |
-> 11 | Apr 10 | | |
+> 11 | Apr 08 | [SQL Injection](../slides/12_Web_SQL_Injection.pdf) | IS: Ch 24 |
+> 11 | Apr 10 | Clickjacking  | IS: Ch 25 |
 > | | | |
 > 12 | Apr 15 | | |
 > 12 | Apr 17 | | |
@@ -53,7 +53,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 14 | May 01 | Exam Review | |
 > | | | |
 > 15 | May 06 | Game | |
-> 15 | May 08 |  | |
+> 15 | May 08 | | |
 > | | | |
 > 16 | May 13 | *__Student Final Project Presentations__* | | 
 > 16 | May 15 | *__Student Final Project Presentations__* | |
