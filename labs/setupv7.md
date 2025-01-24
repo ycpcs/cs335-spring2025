@@ -37,12 +37,10 @@ Our prebuilt Ubuntu 20.04 VM is 64-bit, so pick Ubuntu (64-bit).
 
 ![name and OS type](./images/v7/vm-name-type.png)
 
-
 ### Step 3: Set the Memory Size
 
 We need to allocate dedicated memory for the VM.
-1024 MB should be sufficient, but we recommend 2GB. If your computer has more
-RAM, you can increase accordingly. The more memory you give to the VM,
+1024 MB should be sufficient, but we recommend at least 2GB. If your computer has more RAM, you can increase accordingly. The more memory you give to the VM,
 the better the performance you will get.
 
 ![memory](./images/v7/vm-memory.png)
@@ -87,12 +85,11 @@ chances are that you forgot to do this step. You can always do it later
 by selecting the `Devices` menu item, and you will see the
 `Shared Clipboard` submenu.
 
-
 #### Step 5.b: CPUs
 
 Go to the `System` category, and select the `Processor` tab.
 Assign number of CPUs to this VM if you prefer. Although may be sufficient,
-if the performance seems to be an issue, increase the number.
+if the performance seems to be an issue, increase the number. Your system options may vary.
 
 ![CPU cores](./images/v7/vm-setting-system.png)
 
