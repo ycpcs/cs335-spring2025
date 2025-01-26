@@ -28,7 +28,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 06 | Mar 04 | TCP Session Hijacking | IS: Ch 6 |
 > 06 | Mar 06 | _Winter Break_ | |
 > | | | |
-> 07 | Mar 11 | __Exam 1__
+> 07 | Mar 11 | __Exam 1__ | |
 > 07 | Mar 13 | | | 
 > | | | |
 > 08 | Mar 18 | UDP | IS: Ch 15 |
@@ -50,10 +50,10 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 13 | Apr 24 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a> | |
 > | | | |
 > 14 | Apr 29 | __Exam 2__ | |
-> 14 | May 01 | Exam Review | |
+> 14 | May 01 | | |
 > | | | |
-> 15 | May 06 | Game | |
-> 15 | May 08 | | |
+> 15 | May 06 | | |
+> 15 | May 08 | Game | |
 > | | | |
 > 16 | May 13 | *__Student Final Project Presentations__* | | 
 > 16 | May 15 | *__Student Final Project Presentations__* | |
