@@ -11,7 +11,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 >  Week    | Date     | Topic        | Readings   | Assignments & Labs                                  
 > -------- | -------- | ------------ | ---------- | -------------------------------------
 > 01 | Jan 28 | Introduction and Course Philosophy, [Lab Setup](../labs/setup.html), Linux Basics | | [Ethics](../assignments/ethics.html)
-> 01 | Jan 30 | [Root Causes for Vulnerability](../slides/01_Reason_Vulnerability.pdf) | [The Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
+> 01 | Jan 30 | [Root Causes for Vulnerability](../slides/Reason_Vulnerability.pdf) | [The Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
 > | | | |
 > 02 | Feb 04 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
 > 02 | Feb 06 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 |
