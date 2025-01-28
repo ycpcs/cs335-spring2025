@@ -103,7 +103,7 @@ Homework and Lab Assignments
 
 Homework assignments will be derived from the lab activities conducted during class and may include both written and programming components. While collaboration is encouraged, each student must submit their own solutions to demonstrate their understanding of the material.
 
-All homework assignments will be submitted as a __single .pdf__ to <a href="https://cs.ycp.edu/marmoset/">https://cs.ycp.edu/marmoset/</a>. If you have handwritten solutions, PLEASE USE A SCANNER APP to generate the .pdf. You are responsible for ensuring your submission and screenshots are legible.
+Assignments and labs will be posted on the course web page,  [https://ycpcs.github.io/cs335-spring2025](<https://ycpcs.github.io/cs335-spring2025>). All homework assignments will be submitted as a __single .pdf__ to <a href="https://cs.ycp.edu/marmoset/">https://cs.ycp.edu/marmoset/</a>. If you have handwritten solutions, PLEASE USE A SCANNER APP to generate the .pdf. You are responsible for ensuring your submission and screenshots are legible.
 
 <!-- **You MUST make a legitimate attempt to complete every homework assignment.** I reserve the right to fail any student who does not make a good faith effort to complete all of the homework assignments. -->
 
@@ -125,11 +125,6 @@ Final Project
 -----------------
 
 The project will focus on a topic of interest that is _not_ covered in class. The goal of the final project is to allow students to explore a particular issue in greater depth. To ensure continuous progress, there will be periodic milestones throughout the semester. The project will culminate in a final demonstration during the exam period, showcasing all the functionality developed.
-
-Posting and submission of assignments and labs
------------------
-
-Assignments and labs will be posted on the course web page,  [https://ycpcs.github.io/cs335-spring2025](<https://ycpcs.github.io/cs335-spring2025>). Assignments and labs will be submitted using the server <a href="https://cs.ycp.edu/marmoset/">https://cs.ycp.edu/marmoset/</a>. You will receive an email containing the username and password you will use for this server.
 
 Quizzes
 -----------------
