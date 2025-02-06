@@ -18,7 +18,7 @@ This page contains links to notes and code snippets.
 
 #### Shellshock
 - Set-UID Example: <a href=".\shellshock\vul.c" target="_blank">vul.c</a>
-- Setup files: [Labsetup.zip](labs\shellshock\Labsetup.zip)
+- Setup files: [Labsetup.zip](..\labs\shellshock\Labsetup.zip)
 
 <a href="#">To top</a>
 
