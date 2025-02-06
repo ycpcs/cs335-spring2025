@@ -19,6 +19,8 @@ This page contains links to notes and code snippets.
 #### Shellshock
 - Set-UID Example: <a href=".\shellshock\vul.c" target="_blank">vul.c</a>
 - Setup files: [Labsetup.zip](..\labs\shellshock\Labsetup.zip)
+  - ```curl -o Labsetup.zip  https://ycpcs.github.io/cs335-spring2025/labs/shellshock/Labsetup.zip```
+  - ```unzip Labsetup.zip```
 
 <a href="#">To top</a>
 
