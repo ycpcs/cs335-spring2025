@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Shellshock](#shellshock)
 - [Reverse Shell](#reverse-shell)
 - [Upgrade VM](#upgrade-vm)
 - [Setup Environment](#setup-environment)
@@ -14,6 +15,12 @@ This page contains links to notes and code snippets.
 - [Networking](#networking)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Shellshock
+- Set-UID Example: <a href=".\shellshock\vul.c" target="_blank">vul.c</a>
+- Setup files: [Labsetup.zip](labs\shellshock\Labsetup.zip)
+
+<a href="#">To top</a>
 
 #### Reverse Shell
 - File Descriptors Intro: <a href=".\reverse-shell\fd.c" target="_blank">fd.c</a> 
