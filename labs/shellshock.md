@@ -42,7 +42,7 @@ In our setup, the web server container’s IP address is10.9.0.80. The hostname 
 [http://www.seedlab-shellshock.com.](http://www.seedlab-shellshock.com.) We need to map this name to the IP address. Please add the following to ```/etc/hosts```. You need to use the root privilege to modify this file:
 
 ```
-10.9.0.80 [http://www.seedlab-shellshock.com](http://www.seedlab-shellshock.com)
+10.9.0.80 http://www.seedlab-shellshock.com
 ```
 
 ### 2.2 Container Setup and Commands
@@ -158,7 +158,7 @@ echo "****** Environment Variables******"
 strings /proc/$$/environ 
 ```
 
-### Task 2.A: Using browser
+#### Task 2.A: Using browser
 The code above prints out the contents of all the environment variables
 in the current process. Normally, you would see something like the following if you use a browser to access
 the CGI program. Please identify which environment variable(s)’ values are set by the browser. You can
@@ -176,7 +176,7 @@ HTTP_ACCEPT_ENCODING=gzip, deflate
 ...
 ```
 
-### Task 2.A: Using *curl*
+#### Task 2.A: Using *curl*
 If we want to set the environment variable data to arbitrary values, we will have
 to modify the behavior of the browser, that will be too complicated. Fortunately, there is a command-line
 tool called *curl*, which allows users to to control most of fields in an HTTP request. Here are some of
@@ -205,7 +205,7 @@ then you can place your plain-text output. For example, if you want the server t
 folder, your command will look like the following:
 
 ```
-echo Content_type: text/plain; echo; /bin/ls -l
+echo Content-type: text/plain; echo; /bin/ls -l
 ```
 
 In this task, please use three different approaches (i.e., three different HTTP header fields) to launch the
@@ -234,7 +234,7 @@ objective, you only need to use one approach, but in total, you need to use thre
 
 Can we use this method to launch the Shellshock attack? Please conduct your experiment and derive
 your conclusions based on your experiment results.
-```
+
 ### 3.4 Task 4: Getting a Reverse Shell via Shellshock Attack
 
 The Shellshock vulnerability allows attacks to run arbitrary commands on the target machine. In real attacks,
