@@ -9,8 +9,9 @@ This page links to lab assignments.
 > Lab   | File  | Due
 > ----- | ----- | ---- 
 > Lab Setup | [VirtualBox 7.0](setupv7.html) or [VirtualBox 6.x](setup.html) | n/a
+> Shellshock Attack Lab | [Description and Tasks](shellshock.html) | Feb 18
 
-<!-- > Shellshock Attack Lab | [Description and Tasks](shellshock.html) | Feb 18
+<!--
 > Buffer Overflow Attack Lab | [Description and Tasks](buffer_overflow.html) | Feb 29
 > Attacks on TCP | [Description and Tasks](tcp_attack.html) | Mar 24
 > Local DNS Attacks | [Description and Tasks](dns_attack.html) | Apr 02
