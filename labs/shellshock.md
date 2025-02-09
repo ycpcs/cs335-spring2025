@@ -315,8 +315,8 @@ from 10.0.2.5 ..."* message displayed by *netcat*.
 In class we demonstrated a simple method of using Shellshock to cause a Denial of Service attack. ```sleep``` is a command in Unix that suspends program execution for a specified time. Having this information, can you demonstrate another Shellshock attack to cause Denial of Service?
 
 ### 5.1 Task 1: Find Vulnerable Servers using Google
-Using Google search queries like *filetype:cgi inurl:cgi-bin* or *inurl:/cgi-bin/.cgi* can be quite useful to attackers. These queries help identify web servers that have potentially vulnerable CGI (Common Gateway Interface) scripts exposed online. Attackers can exploit these scripts to gain unauthorized access, execute arbitrary code, or perform other malicious activities. 
-Cybersecurity researchers and attackers often use these queries to identify targets for further investigation or exploitation. However, this practice, known as "*Google Dorking"* is a bit risky, as it often delves into areas that, ethically and legally, shouldn't be explored without explicit permission.
+Using Google search queries like *filetype:cgi inurl:cgi-bin* can be quite useful to attackers. These queries help identify web servers that have potentially vulnerable CGI (Common Gateway Interface) scripts exposed online. Attackers can exploit these scripts to gain unauthorized access, execute arbitrary code, or perform other malicious activities. 
+Cybersecurity researchers and attackers often use these queries to identify targets for further investigation or exploitation. However, this practice, known as [Google Dorking](https://www.exploit-db.com/google-hacking-database) is a bit risky, as it often delves into areas that, ethically and legally, shouldn't be explored without explicit permission.
 
 Just to reiterate the importance of being responsible and ethical in cyberspace:
  - Do not click on any links resulting from these queries.
