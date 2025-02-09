@@ -228,7 +228,7 @@ objective, you only need to use one approach, but in total, you need to use thre
     ```
     $ curl "http://www.seedlab-shellshock.com/cgi-bin/getenv.cgi?AAAAA"
     ...
-    UERY_STRING=AAAAA
+    QUERY_STRING=AAAAA
     ...
     ```
 
@@ -307,7 +307,6 @@ a bash shell on the server machine, with its input coming from a TCP connection,
 same TCP connection. In our experiment, when the bash shell command is executed on *10.0.2.5*, it
 connects back to the *netcat* process started on *10.0.2.6*. This is confirmed via the *"Connection
 from 10.0.2.5 ..."* message displayed by *netcat*.
-
 
 ## 5 Additional Tasks
 
