@@ -220,9 +220,9 @@ objective, you only need to use one approach, but in total, you need to use thre
 
 **Questions**. Please answer the following questions:
 
-- Question 1: Will you be able to steal the content of the shadow file */etc/shadow* from the server?
+- **Question 1**: Will you be able to steal the content of the shadow file */etc/shadow* from the server?
     Why or why not? The information obtained in Task 3.B should give you a clue.
-- Question 2: HTTP GET requests typically attach data in the URL, after the *?* mark. This could be
+- **Question 2**: HTTP GET requests typically attach data in the URL, after the *?* mark. This could be
     another approach that we can use to launch the attack. In the following example, we attach some data
     in the URL, and we found that the data are used to set the following environment variable:
     ```
