@@ -14,7 +14,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 01 | Jan 30 | [Root Causes for Vulnerability](../slides/Reason_Vulnerability.pdf) | [The Netflix Simian Army](https://netflixtechblog.com/the-netflix-simian-army-16e57fbab116)
 > | | | |
 > 02 | Feb 04 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
-> 02 | Feb 06 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 |
+> 02 | Feb 06 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 | [Shellshock Attack Lab](../labs/shellshock.html)
 > | | | |
 > 03 | Feb 11 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href="schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
 > 03 | Feb 13 | Buffer Overflow: Hijack Program Execution Flow | |
