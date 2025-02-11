@@ -28,6 +28,7 @@ This page contains links to notes and code snippets.
 - ASLR: <a href=".\buffer\aslr.c" target="_blank">aslr.c</a>
 - Setup files: [Labsetup.zip](..\labs\buffer\Labsetup.zip)
   - Turn off address randomization: ```sudo /sbin/sysctl -w kernel.randomize_va_space=0```
+  - Update Symbolic Link: ```sudo ln -sf /bin/zsh /bin/sh```
 
 <a href="#">To top</a>
 
