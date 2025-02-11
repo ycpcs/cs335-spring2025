@@ -23,6 +23,8 @@ This page contains links to notes and code snippets.
 - Memory Layout: <a href=".\buffer\layout.c" target="_blank">layout.c</a>
   - Use ```-m32```
 - Launching shell: <a href=".\buffer\launch_shell.c" target="_blank">launch_shell.c</a>
+- Old shellcode: <a href=".\buffer\shellcode.c" target="_blank">shellcode.c</a>
+  - Compile with: ```-m32 -z execstack```
 - ASCII vs binary: <a href=".\buffer\print_zero.c" target="_blank">print_zero.c</a>
 - Print *esp*: <a href=".\buffer\sp.c" target="_blank">sp.c</a>
 - ASLR: <a href=".\buffer\aslr.c" target="_blank">aslr.c</a>
