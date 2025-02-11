@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Buffer Overflow](#buffer-overflow)
 - [Shellshock](#shellshock)
 - [Reverse Shell](#reverse-shell)
 - [Upgrade VM](#upgrade-vm)
@@ -15,6 +16,17 @@ This page contains links to notes and code snippets.
 - [Networking](#networking)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Buffer Overflow 
+- Buffer Overflow Example: <a href=".\buffer\buffer.c" target="_blank">buffer.c</a>
+- Memory Layout: <a href=".\buffer\layout.c" target="_blank">layout.c</a>
+- Launching shell: <a href=".\buffer\launch_shell.c" target="_blank">launch_shell.c</a>
+- ASCII vs binary: <a href=".\buffer\print_zero.c" target="_blank">print_zero.c</a>
+- Print *esp*: <a href=".\buffer\sp.c" target="_blank">sp.c</a>
+- ASLR: <a href=".\buffer\aslr.c" target="_blank">aslr.c</a>
+- Setup files: [Labsetup.zip](..\labs\buffer\Labsetup.zip)
+
+<a href="#">To top</a>
 
 #### Shellshock
 - Set-UID Example: <a href=".\shellshock\vul.c" target="_blank">vul.c</a>
