@@ -21,7 +21,7 @@ This page contains links to notes and code snippets.
 #### Networking 
 - udp_client: <a href=".\network\udp_client.txt" target="_blank">udp_client.py</a>
 - udp_server: <a href=".\network\udp_server.txt" target="_blank">udp_server.py</a>
-- Docker Compose: <a href=".\network\docker-compose.yml" target="_blank">docker-compose.yml</a>
+- Lab Setup: <a href=".\network\docker-compose.yml" target="_blank">docker-compose.yml</a>
 - Scapy: 
   - sniff: <a href=".\network\sniff.txt" target="_blank">sniff.py</a>
   - icmp_spoof: <a href=".\network\icmp_spoof.txt" target="_blank">icmp_spoof.py</a>
