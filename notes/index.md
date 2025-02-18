@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Networking](#networking)
 - [Buffer Overflow](#buffer-overflow)
 - [Shellshock](#shellshock)
 - [Reverse Shell](#reverse-shell)
@@ -13,9 +14,21 @@ This page contains links to notes and code snippets.
 - [Setup Environment](#setup-environment)
 - [File Commands and Directory Navigation](#file-commands-and-directory-navigation)
 - [Permissions](#permissions)
-- [Networking](#networking)
+- [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Networking 
+- udp_client: <a href=".\network\udp_client.txt" target="_blank">udp_client.py</a>
+- udp_server: <a href=".\network\udp_server.txt" target="_blank">udp_server.py</a>
+- Docker Compose: <a href=".\network\docker-compose.yml" target="_blank">docker-compose.yml</a>
+- Scapy: 
+  - sniff: <a href=".\network\sniff.txt" target="_blank">sniff.py</a>
+  - icmp_spoof: <a href=".\network\icmp_spoof.txt" target="_blank">icmp_spoof.py</a>
+  - udp_spoof: <a href=".\network\udp_spoof.txt" target="_blank">udp_spoof.py</a>
+  - sniff_spoof: <a href=".\network\sniff_spoof.txt" target="_blank">sniff_spoof.py</a>
+  
+<a href="#">To top</a>
 
 #### Buffer Overflow 
 - Buffer Overflow Example: <a href=".\buffer\buffer.c" target="_blank">buffer.c</a>
