@@ -19,4 +19,4 @@ arp = ARP(psrc=spoofed_ip,
 
 frame = ether/arp
 frame.show()
-sendp(frame, iface="br-cf4c048a4428")
+sendp(frame, iface="eth0")
