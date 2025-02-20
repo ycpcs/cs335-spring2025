@@ -20,7 +20,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 03 | Feb 13 | Buffer Overflow: Hijack Program Execution Flow | |
 > | | | |
 > 04 | Feb 18 | [Network Basics](../slides/Network_Basics.pdf) | IS: Ch 1 |
-> 04 | Feb 20 | ARP Spoofing | IS: Ch 2 |
+> 04 | Feb 20 | [ARP Spoofing](../slides/MAC_ARP.pdf) | IS: Ch 2 |
 > | | | |
 > 05 | Feb 25 | IP and ICMP | IS: Ch 3 |
 > 05 | Feb 27 | [Attacks on TCP Protocol](../slides/TCP_Attack.pdf) | IS: Ch 6 |
