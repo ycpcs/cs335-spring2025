@@ -6,52 +6,57 @@ title: Lab - Buffer Overflow
 
 # Lab - Buffer Overflow Attack Lab
 
-### Lab Description and Tasks
+### Lab Overview 
+In this lab, you will explore the concept of a ```buffer overflow attack```, which is a common security vulnerability in software. By exploiting a buffer overflow, an attacker can manipulate the program's execution flow, potentially executing arbitrary code.
+  - <a href="..\schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow Attack</a>
+  - <a href=".\buffer\stack_smashing.pdf" target="_blank">Smashing The Stack For Fun And Profit, Aleph One</a>
 
-- Lab Description: [Buffer Overflow.pdf](buffer\Buffer_Overflow_Setuid.pdf)
+### Part 1: Calling an Unused Function in Code
+In this task, you'll work with the provided [layout.c](buffer\layout.c) program, which contains an unused function, ```log_cs335_joke```. Your goal is to call this function from the command line, ensuring you pass the correct arguments.
+- To avoid Segmentation Faults caused by stack protection, disable the stack guard:
+  - ```-fno-stack-protector -z execstack```
+- To turn off Address Space Layout Randomization (ASLR): ```$ sudo sysctl -w kernel.randomize_va_space=0```
+  - Check the current randomization status: ```$ sudo sysctl kernel.randomize_va_space```
+   
+- **Important**: No modifications are allowed to the ```layout.c``` program itself.
+  - You will need to capture the following in your report:
+    - The exact command you used to run the program.
+    - Terminal output showing the function's execution.
+    - Screenshots of any debugging sessions you used to determine the correct command format.
+  
+### Part 2: Buffer Overflow Attacks of Privileged Programs  
+- Tasks Description: [Buffer Overflow.pdf](buffer\Buffer_Overflow_Setuid.pdf)
+- Lab Setup files: [Labsetup.zip](buffer\Labsetup.zip)
   - The **BUF SIZE** value for Task 3 (L1) is: **180**.
   - Tasks 5 & 6 are optional and for extra credit. Rest of the tasks are required.
-  - Lab Setup files: [Labsetup.zip](buffer\Labsetup.zip)
-  - Additional information on the SEED project [site](https://seedsecuritylabs.org/Labs_20.04/Software/Buffer_Overflow_Setuid/).
+    - These tasks provide additional challenges (64 bit) for those who want to go beyond the basics.
 
-- [Smashing The Stack For Fun And Profit](https://insecure.org/stf/smashstack.html), Aleph One
-
-- Alternative to create _badfile_: [exploit.c](buffer\exploit.c)
+- Alternative to create _badfile_: [exploit.c](buffer\exploit.c).
 - NOP - [No Operation](https://www.felixcloutier.com/x86/nop)
+  - NOPs are used in buffer overflow exploits to pad the payload.
 
-### Tips
-
+#### Important Setup Instructions
 - The following command can be used to link ```/bin/sh``` to ```/bin/zsh```: ```sudo ln -sf /bin/zsh /bin/sh```
-- To turn off address randomization: ```$ sudo sysctl -w kernel.randomize_va_space=0```
-- Check the current randomization status: ```$ sudo sysctl kernel.randomize_va_space```
-- If you forget to turn off the non-executable stack protection ``` -z execstack``` you will get a *Segmentation fault*
-- Use ```-fno-stack-protector``` to turn off the StackGuard 
-
-<!--
- - To compile the ```stack.c``` program using debug flags: ```gcc stack.c -o gdb-stack -g -z execstack -fno-stack-protector```.
- -->
-
 - To unconditionally _make_ all targets: ```make -B```
-- Now you can debug ```stack-L1-dbg``` to find the address of ```buffer``` and frame pointer ```($ebp)```
-  - Start debugging by: ```gdb stack-L1-dbg```
-  - To place a breakpoint at bof: ```b bof```
-  - To run the program type: ```r```
-  - To get address of buffer: ``` p &buffer```
-  - Address of the frame pointer: ```p $ebp```
-  - To find the offset: use ```p``` to substract the two, ex: ```p (0xbfffeb08 - 0xbfffeae8)```
-  - You can exit gdb debugging session by typing ```quit```
-- ```touch badfile``` will create an empty ```badfile```
+- Debugging the program:
+  - To debug the vulnerable program, use *gdb*: ```gdb stack-L1-dbg```
+  - Set a breakpoint at the *bof* function: ```b bof```
+  - To run the program: ```r```
+  - To find the address of the buffer and frame pointer: 
+    - ``` p &buffer```
+    - ```p $ebp```
+  - Calculate the offset between the buffer and frame pointer: ```p (0xbfffeb08 - 0xbfffeae8)```
+  - Create an empty *badfile*: ```touch badfile``` 
 
 ### Grading
-
-Post your report in [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due date in the syllabus. Your grade for this lab will be composed of:
-- 30% - Design
-- 30% - Observations
-- 40% - Explanation
-- *Extra Credit* if you pursue further investigation, beyond what is required by the lab description.
+- Post your report in [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due date in the syllabus. Your grade for this lab will be composed of:
+- You need to submit a detailed lab report, with **screenshots**, to describe what you have done and what you have observed. You also need to provide explanation to the observations that are interesting or surprising. Please also list the important code snippets followed by explanation. Simply attaching code without any explanation will not receive credits.
+  - 30% - Design:  The overall quality and structure of your exploit.
+  - 30% - Observations: Insightfulness and depth in your understanding of the task
+  - 40% - Explanation: Clarity and completeness of your report and analysis.
+  - *Extra Credit*: Additional investigation beyond the requirements.
 
 <!--
-
 1	Familiar with Shell 5
 2	Vulnerable program 5
 3	Level 1 on 32 bit	30
@@ -59,5 +64,4 @@ Post your report in [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due
 7	dash countermeasures 15
 8	ASLR 7.5
 9	Other Protections	7.5
-
 ->
