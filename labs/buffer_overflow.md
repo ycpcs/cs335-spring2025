@@ -25,7 +25,7 @@ In this task, you'll work with the provided [layout.c](buffer\layout.c) program,
     - Screenshots of any debugging sessions you used to determine the correct command format.
   
 ### Part 2: Buffer Overflow Attacks of Privileged Programs  
-- Tasks Description: [Buffer Overflow.pdf](buffer\Buffer_Overflow_Setuid.pdf)
+- Tasks Description: <a href="./buffer/Buffer_Overflow_Setuid.pdf" target="_blank">Buffer Overflow.pdf</a>
 - Lab Setup files: [Labsetup.zip](buffer\Labsetup.zip)
   - The **BUF SIZE** value for Task 3 (L1) is: **180**.
   - Tasks 5 & 6 are optional and for extra credit. Rest of the tasks are required.
@@ -49,7 +49,7 @@ In this task, you'll work with the provided [layout.c](buffer\layout.c) program,
   - Create an empty *badfile*: ```touch badfile``` 
 
 ### Grading
-- Post your report in [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due date in the syllabus. Your grade for this lab will be composed of:
+- Post your report in <a href="https://cs.ycp.edu/marmoset" target="_blank">Marmoset</a> by the scheduled due date in the syllabus. Your grade for this lab will be composed of:
 - You need to submit a detailed lab report, with **screenshots**, to describe what you have done and what you have observed. You also need to provide explanation to the observations that are interesting or surprising. Please also list the important code snippets followed by explanation. Simply attaching code without any explanation will not receive credits.
   - 30% - Design:  The overall quality and structure of your exploit.
   - 30% - Observations: Insightfulness and depth in your understanding of the task

@@ -16,7 +16,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 02 | Feb 04 | [Reverse Shell](../slides/Reverse_Shell.pdf) | IS: Ch 14 |
 > 02 | Feb 06 | [Shellshock Attack](../slides/Shellshock.pdf) | IS: Ch 26 | [Shellshock Attack Lab](../labs/shellshock.html)
 > | | | |
-> 03 | Feb 11 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href="schedule\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
+> 03 | Feb 11 | [Buffer Overflow Attack](../slides/Buffer_Overflow.pdf) | <a href=".\papers\buffer-overflow.pdf" target="_blank">Buffer Overflow</a> |
 > 03 | Feb 13 | Buffer Overflow: Hijack Program Execution Flow | <a href="..\labs\buffer\stack_smashing.pdf" target="_blank">Smashing The Stack For Fun And Profit, Aleph One</a> | [Buffer Overflow Attack Lab](../labs/buffer_overflow.html)
 > | | | |
 > 04 | Feb 18 | [Network Basics](../slides/Network_Basics.pdf) | IS: Ch 1 |
