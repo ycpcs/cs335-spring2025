@@ -31,6 +31,7 @@ This page contains links to notes and code snippets.
   - C: <a href=".\tcp\synflood.c" target="_blank">synflood.c</a>
   - ```sysctl -w net.ipv4.tcp_syncookies=0```
   - ```sysctl -w net.ipv4.tcp_max_syn_backlog=80```
+  - ```ip tcp_metrics flush```
 - Reset: <a href=".\tcp\reset.txt" target="_blank">reset.py</a>
 - Auto Reset: <a href=".\tcp\auto_reset.txt" target="_blank">auto_reset.py</a>
 - Hijack Session: <a href=".\tcp\hijack.txt" target="_blank">hijack.py</a>
