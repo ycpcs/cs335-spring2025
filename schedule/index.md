@@ -25,7 +25,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 05 | Feb 25 | [IP and ICMP](../slides/IP_ICMP.pdf) | IS: Ch 3 |
 > 05 | Feb 27 | [Attacks on TCP Protocol](../slides/TCP_Attack.pdf) | IS: Ch 6 |
 > | | | |
-> 06 | Mar 04 | TCP Session Hijacking | IS: Ch 6 |
+> 06 | Mar 04 | TCP Session Hijacking | IS: Ch 6 | [Attacks on TCP](../labs/tcp_attack.html)
 > 06 | Mar 06 | _Winter Break_ | |
 > | | | |
 > 07 | Mar 11 | __Exam 1__ | |

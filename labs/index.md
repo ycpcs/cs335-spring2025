@@ -11,9 +11,9 @@ This page links to lab assignments.
 > Lab Setup | [VirtualBox 7.0](setupv7.html) or [VirtualBox 6.x](setup.html) | n/a
 > Shellshock Attack Lab | [Description and Tasks](shellshock.html) | Feb 18
 > Buffer Overflow Attack Lab | [Description and Tasks](buffer_overflow.html) | Mar 04
+> Attacks on TCP | [Description and Tasks](tcp_attack.html) | Mar 20
 
 <!--
-> Attacks on TCP | [Description and Tasks](tcp_attack.html) | Mar 24
 > Local DNS Attacks | [Description and Tasks](dns_attack.html) | Apr 02
 > Cross-Site Request Forgery (CSRF) Attack | [Description and Tasks](csrf.html) | Apr 14
 > Cross-Site Scripting (XSS) Attack | [Description and Tasks](xss_attack.html) | Apr 28
