@@ -16,7 +16,7 @@ Presentations:
 
 | | |
 |---|---|
-Topic 1 | Topic 2
+QR Code Security | Topic 2
 
 ### Introduction
 
