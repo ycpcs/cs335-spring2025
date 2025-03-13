@@ -29,7 +29,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 06 | Mar 06 | _Winter Break_ | |
 > | | | |
 > 07 | Mar 11 | __Exam 1__ | |
-> 07 | Mar 13 | [UDP](../slides/UDP.pdf)  | IS: Ch 15, <a href="..\papers\amplification-ndss2014.pdf" target="_blank">Amplification Hell</a> |
+> 07 | Mar 13 | [UDP](../slides/UDP.pdf)  | IS: Ch 15, <a href=".\papers\amplification-ndss2014.pdf" target="_blank">Amplification Hell</a> |
 > | | | |
 > 08 | Mar 18 | | |
 > 08 | Mar 20 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 |

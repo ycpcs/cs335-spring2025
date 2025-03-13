@@ -25,6 +25,7 @@ This page contains links to notes and code snippets.
 #### UDP 
 - Server: <a href=".\udp\udp_server.txt" target="_blank">udp_server.py</a>
 - Attack: <a href=".\udp\udp_attack.txt" target="_blank">udp_attack.py</a>
+- DNS Query: <a href=".\udp\dns.txt" target="_blank">dns.py</a>
 
 <a href="#">To top</a>
 
