@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [DNS](#dns)
 - [UDP](#udp)
 - [TCP](#tcp)
 - [IP](#ip)
@@ -21,6 +22,25 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### DNS 
+- Send DNS query: <a href=".\dns\send_dns_query.txt" target="_blank">send_dns_query.py</a>
+- DNS server: <a href=".\dns\dns-server.txt" target="_blank">dns-server.py</a>
+- RFC
+  - Domain Name System (DNS) IANA Considerations: [6895](https://tools.ietf.org/html/rfc6895)
+  - DOMAIN NAMES - IMPLEMENTATION AND SPECIFICATION: [1035](https://tools.ietf.org/html/rfc1035)
+  - Resource Records for the DNS Security Extensions: [4034](https://www.rfc-editor.org/rfc/rfc4034)
+- DNS Cache 
+  - Dump: ```rndc dumpdb -cache```
+  - View: ```cat /var/cache/bind/dump.db```
+  - Flush: ```rndc flush```
+- Potential Traffic Issues 
+  - Delay by 100ms: ```tc qdisc add dev eth0 root netem delay 100ms```
+  - Delete the tc entry: ```tc qdisc del dev eth0 root netem```
+  - Show all tc entries: ```tc qdisc show dev eth0```
+- Setup files: [Labsetup.zip](../labs/local_dns/Labsetup.zip)
+
+<a href="#">To top</a>
 
 #### UDP 
 - Time Server: <a href=".\udp\udp_server.txt" target="_blank">udp_server.py</a>

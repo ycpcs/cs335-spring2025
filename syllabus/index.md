@@ -97,7 +97,6 @@ Reading assignments
 
 Readings from your text book will be assigned throughout the semester. You will find the readings listed in the Course Schedule. <strong>You are encouraged to read the scheduled material before coming to class.</strong>
 
-
 Homework and Lab Assignments
 -----------------
 
@@ -105,7 +104,7 @@ Homework assignments will be derived from the lab activities conducted during cl
 
 Assignments and labs will be posted on the course web page,  [https://ycpcs.github.io/cs335-spring2025](<https://ycpcs.github.io/cs335-spring2025>). All homework assignments will be submitted as a __single .pdf__ to <a href="https://cs.ycp.edu/marmoset/">https://cs.ycp.edu/marmoset/</a>. If you have handwritten solutions, PLEASE USE A SCANNER APP to generate the .pdf. You are responsible for ensuring your submission and screenshots are legible.
 
-<!-- **You MUST make a legitimate attempt to complete every homework assignment.** I reserve the right to fail any student who does not make a good faith effort to complete all of the homework assignments. -->
+**You MUST make a genuine and legitimate attempt to complete every lab and homework assignment.** I reserve the right to fail any student who does not demonstrate a good faith effort in completing all tasks. Full participation and commitment are required for successful course completion.
 
 Late assignments will be marked down 20% per day late. **No credit will be given for assignments that are more than three (3) days late.**
 
