@@ -24,6 +24,7 @@ This page contains links to notes and code snippets.
 - [Clone a website](#clone-a-website)
 
 #### DNS 
+- [https://www.internic.net/domain/root.zone](https://www.internic.net/domain/root.zone)
 - Send DNS query: <a href=".\dns\send_dns_query.txt" target="_blank">send_dns_query.py</a>
 - DNS server: <a href=".\dns\dns-server.txt" target="_blank">dns-server.py</a>
 - RFC
