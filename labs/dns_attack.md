@@ -109,7 +109,7 @@ $ dig www.example.com
 $ dig @ns.attacker32.com www.example.com
 ```
 
-Obviously, nobody is going to ask *ns.attacker32.com* for the IP address of *www.example.com*; they will always ask the *example.com* domain’s official nameserver for answers. The objective of the DNS cache poisoning attack is to get the victims to ask *ns.attacker32.com* for the IP address of *www.example.com*. Namely, if our attack is successful, if we just run the first dig command, the one without the @ option, we should get the fake result from the attacker, instead of getting the authentic one from the domain’s legitimate nameserver.
+Obviously, nobody is going to ask *ns.attacker32.com* for the IP address of *www.example.com*; they will always ask the *example.com* domain’s official nameserver for answers. The objective of the DNS cache poisoning attack is to get the victims to ask *ns.attacker32.com* for the IP address of *www.example.com*. Namely, if our attack is successful, if we just run the first dig command, the one without the *@* option, we should get the fake result from the attacker, instead of getting the authentic one from the domain’s legitimate nameserver.
 
 ### The Attack Tasks
 The main objective of DNS attacks on a user is to redirect the user to another machine B when the user tries to get to machine A using A’s host name. For example, when the user tries to access the online banking, if the adversaries can redirect the user to a malicious web site that looks very much like the main web site of bank, the user might be fooled and give away password of his/her online banking account.
@@ -149,8 +149,7 @@ While the attack program is running, on the user machine, you can run dig comman
 
 Before launching the attack, make sure that the cache in the local DNS server is cleaned. If the cache has the answer, the reply from the local DNS server will be faster than the one you spoofed, and your attack will not be able to succeed.
 
-**A potential issue**. When we do this lab using containers, sometimes (not always) we saw a very strange situation. The sniffing and spoofing inside containers is very slow, and our spoofed packets even arrive later than the legitimate one from the Internet, even though we are local. In the past, when we use VMs for this lab, we never had this issue. We have not figured out the cause of this performance issue yet (if you have
-any insight on this issue, please let us know).
+**A potential issue**. When we do this lab using containers, sometimes (not always) we saw a very strange situation. The sniffing and spoofing inside containers is very slow, and our spoofed packets even arrive later than the legitimate one from the Internet, even though we are local. 
 
 If you do encounter this strange situation, we can get around it. We intentionally slow down the traffic going to the outside, so the authentic replies will not come that fast. This can be done using the following *tc* command on the router to add some delay to the outgoing network traffic. The router has two interfaces, *eth0* and *eth1*, make sure use the one connected to the external network 1*0.8.0.0/24*.
 
@@ -196,7 +195,7 @@ The idea is to use the Authority section in DNS replies. Basically, when we spoo
 example.com.  259200  IN  NS  ns.attacker32.com.
 ```
 
-Please add a spoofed NS record in your attack code, and launch the attack. Section 4 has an example showing how to include an NS record in a DNS response packet. Detailed guidelines are provided in the SEED book. Before doing the attack, please remember to clear the cache on the local DNS server first. If your attack is successful, when you run the dig command on the user machine for any hostname in the *example.com* domain, you will get the fake IP address provided by *ns.attacker32.com*. Please also check the cache on the local DNS server and see whether the spoofed NS record is in the cache or not. 
+Please add a spoofed NS record in your attack code, and launch the attack. Before doing the attack, please remember to clear the cache on the local DNS server first. If your attack is successful, when you run the dig command on the user machine for any hostname in the *example.com* domain, you will get the fake IP address provided by *ns.attacker32.com*. Please also check the cache on the local DNS server and see whether the spoofed NS record is in the cache or not. 
 
 #### Task 4: Spoofing NS Records for Another Domain
 In the previous attack, we successfully poison the cache of the local DNS server, so *ns.attacker32.com* becomes the nameserver for the *example.com* domain. Inspired by this success, we would like to extend its impact to other domain. Namely, in the spoofed response triggered by a query for *www.example.com*, we would like to add additional entry in the Authority section (see the following), so *ns.attacker32.com* is also used as the nameserver for *google.com*.
