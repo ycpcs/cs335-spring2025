@@ -22,9 +22,10 @@ Presentations:
 | TV      | Hacking  2FA                                         |
 | JR      | Bitcoin transactions and their security implications |
 | EL / ZC | Double Spending Attack on the Blockchain             |
-| CJ      | Attacks on BGP                                       |
+| CJ      | Attacks on BGP (SEED)                                |
 | AO      | Spear phishing Simulation                            |
 | JW      | Caller ID Spoofing                                   |
+| CC      | DNS Infrastructure Lab (SEED)                        |
 
 ### Introduction
 
