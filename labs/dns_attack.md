@@ -246,7 +246,7 @@ You need to use Scapy for several tasks in this lab. The following sample code s
 ### Submission
 You need to submit a detailed lab report, with screenshots, to describe what you have done and what you have observed. You also need to provide explanation to the observations that are interesting or surprising. Please also list the important code snippets followed by explanation. Simply attaching code without any explanation will not receive credits. You **must provide a screenshot of the network traffic** with each attack.
 
-## Grading
+### Grading
 
 Post your report in [Marmoset](https://cs.ycp.edu/marmoset) by the scheduled due date in the syllabus. Your grade for this lab will be composed of:
 - 30% - Design
