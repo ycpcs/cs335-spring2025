@@ -23,6 +23,7 @@ Presentations:
 | JR | Bitcoin transactions and their security implications
 | EL / ZC | Double Spending Attack on the Blockchain
 | CJ | Attacks on BGP 
+| AO | Spear phishing Simulation 
 
 ### Introduction
 
