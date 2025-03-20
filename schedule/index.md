@@ -34,11 +34,11 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 18 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 | |
 > 08 | Mar 20 | DNS Attacks | IS: Ch 10 | [Local DNS Attack](../labs/dns_attack.html)
 > | | | |
-> 09 | Mar 25 | Web Security Basics | IS: Ch 21 |
-> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/10_Web_CSRF.pdf) | IS: Ch 22 |
+> 09 | Mar 25 | [Web Security Basics](../slides/Web_Security_Basics.pd/) | IS: Ch 21 |
+> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/Web_CSRF.pdf) | IS: Ch 22 |
 > | | | |
-> 10 | Apr 01 | [Cross-Site Scripting](../slides/11_Web_XSS.pdf) | IS: Ch 23 |
-> 10 | Mar 03 | [SQL Injection](../slides/12_Web_SQL_Injection.pdf) | IS: Ch 24 |
+> 10 | Apr 01 | [Cross-Site Scripting](../slides/Web_XSS.pdf) | IS: Ch 23 |
+> 10 | Mar 03 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
 > 11 | Apr 08 | Clickjacking  | IS: Ch 25 |
 > 11 | Apr 10 | Password Cracking | |
