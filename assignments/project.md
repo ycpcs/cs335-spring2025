@@ -14,16 +14,17 @@ Presentations:
 
 ### Topics already picked
 
-| Student | Topic |
-|---|---|
-| EC | QR Code Security
-| JB / JN | Hacking Bluetooth 
-| BW / CM | RFID/NFC
-| TV | Hacking  2FA 
-| JR | Bitcoin transactions and their security implications
-| EL / ZC | Double Spending Attack on the Blockchain
-| CJ | Attacks on BGP 
-| AO | Spear phishing Simulation 
+| Student | Topic                                                |
+| ------- | ---------------------------------------------------- |
+| EC      | QR Code Security                                     |
+| JB / JN | Hacking Bluetooth                                    |
+| BW / CM | RFID/NFC                                             |
+| TV      | Hacking  2FA                                         |
+| JR      | Bitcoin transactions and their security implications |
+| EL / ZC | Double Spending Attack on the Blockchain             |
+| CJ      | Attacks on BGP                                       |
+| AO      | Spear phishing Simulation                            |
+| JW      | Caller ID Spoofing                                   |
 
 ### Introduction
 
