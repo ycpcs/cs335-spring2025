@@ -230,18 +230,18 @@ Repeat task 1 and task 2 using netwox.
 
 #### Guideline
 You need to use Scapy for several tasks in this lab. The following sample code shows how to sniff a DNS query and then spoof a DNS reply, which contains a record in the Answer section, two records in the Authority section and two records in the Additional section. The code is already included in the Labsetup.zip file (inside the volumes folder). Each field of the DNS payload is explained in the following:
-- id: Transaction ID; should be the same as that in the request.
-- qd: Query Domain; should be the same as that in the Request.
-- aa: Authoritative answer (1 means that the answer contains Authoritative answer).
-- rd: Recursion Desired (0 means to disable Recursive queries).
-- qr: Query Response bit (1 means Response).
-- qdcount: number of query domains.
-- ancount: number of records in the Answer section.
-- nscount: number of records in the Authority section.
-- arcount: number of records in the Additional section.
-- an: Answer section
-- ns: Authority section
-- ar: Additional section
+- *id*: Transaction ID; should be the same as that in the request.
+- *qd*: Query Domain; should be the same as that in the Request.
+- *aa*: Authoritative answer (1 means that the answer contains Authoritative answer).
+- *rd*: Recursion Desired (0 means to disable Recursive queries).
+- *qr*: Query Response bit (1 means Response).
+- *qdcount*: number of query domains.
+- *ancount*: number of records in the Answer section.
+- *nscount*: number of records in the Authority section.
+- *arcount*: number of records in the Additional section.
+- *an*: Answer section
+- *ns*: Authority section
+- *ar*: Additional section
 
 ### Submission
 You need to submit a detailed lab report, with screenshots, to describe what you have done and what you have observed. You also need to provide explanation to the observations that are interesting or surprising. Please also list the important code snippets followed by explanation. Simply attaching code without any explanation will not receive credits. You **must provide a screenshot of the network traffic** with each attack.
