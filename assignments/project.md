@@ -17,11 +17,11 @@ Presentations:
 | Student | Topic |
 |---|---|
 | EC | QR Code Security
-| JB/JN | Hacking Bluetooth 
-| BW/CM | RFID/NFC
+| JB / JN | Hacking Bluetooth 
+| BW / CM | RFID/NFC
 | TV | Hacking  2FA 
 | JR | Bitcoin transactions and their security implications
-| EL/ZC | Double Spending Attack on the Blockchain
+| EL / ZC | Double Spending Attack on the Blockchain
 | |
 
 ### Introduction
