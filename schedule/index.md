@@ -31,8 +31,8 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 07 | Mar 11 | __Exam 1__ | |
 > 07 | Mar 13 | [UDP](../slides/UDP.pdf)  | IS: Ch 15, <a href=".\papers\amplification-ndss2014.pdf" target="_blank">Amplification Hell</a> |
 > | | | |
-> 08 | Mar 18 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 || |
-> 08 | Mar 20 | DNS Attacks | |
+> 08 | Mar 18 | DNS and [DNS Attacks](../slides/DNS_Attacks.pdf) | IS: Ch 10 | |
+> 08 | Mar 20 | DNS Attacks | IS: Ch 10 | [Local DNS Attack](../labs/dns_attack.html)
 > | | | |
 > 09 | Mar 25 | Web Security Basics | IS: Ch 21 |
 > 09 | Mar 27 | | |
