@@ -64,7 +64,7 @@ When a container is in the host mode, it sees all the host’s network interface
 # rndc flush // Flush the DNS cache
 ```
 
-*- Forwarding the attacker32.com zone*: A forward zone is added to the local DNS server, so if anybody queries the *attacker32.com* domain, the query will be forwarded to this domain’s nameserver, which is hosted in the attacker container. The zone entry is put inside the *named.conf* file.
+- *Forwarding the attacker32.com zone*: A forward zone is added to the local DNS server, so if anybody queries the *attacker32.com* domain, the query will be forwarded to this domain’s nameserver, which is hosted in the attacker container. The zone entry is put inside the *named.conf* file.
 
 ```
 zone "attacker32.com" {
@@ -143,7 +143,7 @@ myFilter = "..." # Set the filter
 pkt=sniff(iface=’br-43d947d991eb’, filter=myFilter, prn=spoof_dns)
 ``` 
 
-It should be noted that in the code above, the value for the iface argument should be replaced with the actual interface name for the 10.9.0.0/24 network.
+It should be noted that in the code above, the value for the *iface* argument should be replaced with the actual interface name for the *10.9.0.0/24* network.
 
 While the attack program is running, on the user machine, you can run dig command on behalf of the user. This command triggers the user machine to send out a DNS query to the local DNS server, which will eventually send out a DNS query to the authoritative nameserver of the *example.com* domain (if the cache does not contain the answer). If your attack is successful, you should be able to see your spoofed information in the reply. Compare your results obtained before and after the attack.
 
