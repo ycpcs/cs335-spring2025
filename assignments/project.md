@@ -22,7 +22,7 @@ Presentations:
 | TV | Hacking  2FA 
 | JR | Bitcoin transactions and their security implications
 | EL / ZC | Double Spending Attack on the Blockchain
-| |
+| CJ | Attacks on BGP 
 
 ### Introduction
 
