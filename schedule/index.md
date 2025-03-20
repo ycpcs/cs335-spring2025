@@ -35,25 +35,25 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 20 | DNS Attacks | IS: Ch 10 | [Local DNS Attack](../labs/dns_attack.html)
 > | | | |
 > 09 | Mar 25 | Web Security Basics | IS: Ch 21 |
-> 09 | Mar 27 | | |
+> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/10_Web_CSRF.pdf) | IS: Ch 22 |
 > | | | |
-> 10 | Apr 01 | [Cross-Site Request Forgery](../slides/10_Web_CSRF.pdf) | IS: Ch 22 |
-> 10 | Mar 03 | [Cross-Site Scripting](../slides/11_Web_XSS.pdf) | IS: Ch 23 |
+> 10 | Apr 01 | [Cross-Site Scripting](../slides/11_Web_XSS.pdf) | IS: Ch 23 |
+> 10 | Mar 03 | [SQL Injection](../slides/12_Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
-> 11 | Apr 08 | [SQL Injection](../slides/12_Web_SQL_Injection.pdf) | IS: Ch 24 |
-> 11 | Apr 10 | Clickjacking  | IS: Ch 25 |
+> 11 | Apr 08 | Clickjacking  | IS: Ch 25 |
+> 11 | Apr 10 | Password Cracking | |
 > | | | |
-> 12 | Apr 15 | | |
-> 12 | Apr 17 | | |
+> 12 | Apr 15 | Host and Service Discovery | |
+> 12 | Apr 17 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a> | |
 > | | | |
-> 13 | Apr 22 | Password Cracking | |
-> 13 | Apr 24 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a> | |
+> 13 | Apr 22 | | |
+> 13 | Apr 24 | | |
 > | | | |
 > 14 | Apr 29 | __Exam 2__ | |
-> 14 | May 01 | | |
+> 14 | May 01 | Thread Modeling | |
 > | | | |
-> 15 | May 06 | | |
-> 15 | May 08 | Game | |
+> 15 | May 06 | Game | |
+> 15 | May 08 | (CTF) Hacking Competition | |
 > | | | |
 > 16 | May 13 | *__Student Final Project Presentations__* | | 
 > 16 | May 15 | *__Student Final Project Presentations__* | |
