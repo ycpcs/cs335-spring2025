@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Web Security](#web-security)
 - [DNS](#dns)
 - [UDP](#udp)
 - [TCP](#tcp)
@@ -22,6 +23,9 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Web Security
+- Setup files: [Labsetup.zip](.\notes\web-security\Labsetup.zip)
 
 #### DNS 
 - [https://www.internic.net/domain/root.zone](https://www.internic.net/domain/root.zone)
