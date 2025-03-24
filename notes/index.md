@@ -25,7 +25,7 @@ This page contains links to notes and code snippets.
 - [Clone a website](#clone-a-website)
 
 #### Web Security
-- Setup files: [Labsetup.zip](.\notes\web-security\Labsetup.zip)
+- Setup files: [Labsetup.zip](.\web-security\Labsetup.zip)
 
 #### DNS 
 - [https://www.internic.net/domain/root.zone](https://www.internic.net/domain/root.zone)
