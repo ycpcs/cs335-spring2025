@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [CSRF](#csrf)
 - [Web Security](#web-security)
 - [DNS](#dns)
 - [UDP](#udp)
@@ -23,6 +24,9 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### CSRF
+  - Setup files: [Labsetup.zip](../labs/csrf/Labsetup.zip) 
 
 #### Web Security
 - Setup files: [Labsetup.zip](.\web-security\Labsetup.zip)

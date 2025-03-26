@@ -11,10 +11,8 @@ title: Lab - Cross-Site Request Forgery Attack
 - Lab Description: [CSRF Attack Lab.pdf](csrf\Web_CSRF_Elgg.pdf)
 - Lab Setup files: [Labsetup.zip](csrf\Labsetup.zip)
 
-Additional information on the SEED project [site](https://seedsecuritylabs.org/Labs_20.04/Web/Web_CSRF_Elgg/).
-
 - Make sure you answer the questions under Task 3.
-- You must provide a screenshot of the network traffic with each attack. Any tool is acceptable:
+- You **must provide a screenshot** of the network traffic with each attack. Any tool is acceptable:
    - Wireshark
    - Browser Developer Tools
    - HTTP Header Live
