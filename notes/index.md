@@ -26,6 +26,7 @@ This page contains links to notes and code snippets.
 - [Clone a website](#clone-a-website)
 
 #### CSRF
+  - [CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
   - Setup files: [Labsetup.zip](../labs/csrf/Labsetup.zip) 
   
 | User    | User Name | Password    |
