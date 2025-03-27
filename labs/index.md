@@ -13,7 +13,7 @@ This page links to lab assignments.
 > Buffer Overflow Attack Lab | [Description and Tasks](buffer_overflow.html) | Mar 04
 > Attacks on TCP | [Description and Tasks](tcp_attack.html) | Mar 20
 > Local DNS Attacks | [Description and Tasks](dns_attack.html) | Apr 01
-> Cross-Site Request Forgery (CSRF) Attack | [Description and Tasks](csrf.html) | Apr 
+> Cross-Site Request Forgery (CSRF) Attack | [Description and Tasks](csrf.html) | Apr 08
 
 <!--
 > Cross-Site Scripting (XSS) Attack | [Description and Tasks](xss_attack.html) | Apr 28

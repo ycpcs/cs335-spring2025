@@ -35,7 +35,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 08 | Mar 20 | DNS Attacks | IS: Ch 10 | [Local DNS Attack](../labs/dns_attack.html)
 > | | | |
 > 09 | Mar 25 | [Web Security Basics](../slides/Web_Security_Basics.pdf) | IS: Ch 21 |
-> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/Web_CSRF.pdf) | IS: Ch 22 | ../labs/csrf.html
+> 09 | Mar 27 | [Cross-Site Request Forgery](../slides/Web_CSRF.pdf) | IS: Ch 22 | [CSRF](../labs/csrf.html)
 > | | | |
 > 10 | Apr 01 | [Cross-Site Scripting](../slides/Web_XSS.pdf) | IS: Ch 23 |
 > 10 | Mar 03 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
