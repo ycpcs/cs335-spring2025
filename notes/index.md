@@ -27,6 +27,14 @@ This page contains links to notes and code snippets.
 
 #### CSRF
   - Setup files: [Labsetup.zip](../labs/csrf/Labsetup.zip) 
+  
+| User    | User Name | Password    |
+| ------- | --------- | ----------- |
+| Admin   | admin     | seedelgg    |
+| Alice   | alice     | seedalice   |
+| Boby    | boby      | seedboby    |
+| Charlie | charlie   | seedcharlie |
+| Samy    | samy      | seedsamy    |
 
 #### Web Security
 - Setup files: [Labsetup.zip](.\web-security\Labsetup.zip)
