@@ -27,8 +27,8 @@ This page contains links to notes and code snippets.
 
 #### CSRF
   - [CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
-  - Setup files: [Labsetup.zip](../labs/csrf/Labsetup.zip) 
-  
+  - Setup files: [Labsetup.zip](../labs/csrf/Labsetup.zip)
+
 | User    | User Name | Password    |
 | ------- | --------- | ----------- |
 | Admin   | admin     | seedelgg    |
@@ -40,7 +40,7 @@ This page contains links to notes and code snippets.
 #### Web Security
 - Setup files: [Labsetup.zip](.\web-security\Labsetup.zip)
 
-#### DNS 
+#### DNS
 - [https://www.internic.net/domain/root.zone](https://www.internic.net/domain/root.zone)
 - Send DNS query: <a href=".\dns\send_dns_query.txt" target="_blank">send_dns_query.py</a>
 - DNS server: <a href=".\dns\dns-server.txt" target="_blank">dns-server.py</a>
