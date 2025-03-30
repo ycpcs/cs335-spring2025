@@ -26,6 +26,8 @@ Presentations:
 | AO      | Spear phishing Simulation                            |
 | JW      | Caller ID Spoofing                                   |
 | CC      | DNS Infrastructure Lab (SEED)                        |
+| EV      | Ransomware                                           |
+| LW      | SSL Stripping                                        |
 
 ### Introduction
 
