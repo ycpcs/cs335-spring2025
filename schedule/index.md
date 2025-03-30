@@ -37,7 +37,7 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 09 | Mar 25 | [Web Security Basics](../slides/Web_Security_Basics.pdf) | IS: Ch 21 |
 > 09 | Mar 27 | [Cross-Site Request Forgery](../slides/Web_CSRF.pdf) | IS: Ch 22 | [CSRF](../labs/csrf.html)
 > | | | |
-> 10 | Apr 01 | [Cross-Site Scripting](../slides/Web_XSS.pdf) | IS: Ch 23 |
+> 10 | Apr 01 | [Cross-Site Scripting](../slides/Web_XSS.pdf) | IS: Ch 23 | [XSS](../labs/xss_attack.htm)
 > 10 | Mar 03 | [SQL Injection](../slides/Web_SQL_Injection.pdf) | IS: Ch 24 |
 > | | | |
 > 11 | Apr 08 | Clickjacking  | IS: Ch 25 |
