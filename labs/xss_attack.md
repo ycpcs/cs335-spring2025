@@ -11,19 +11,17 @@ title: Lab - Cross-Site Scripting Attack
 - Lab Description: [XSS Attack Lab.pdf](xss\Web_XSS_Elgg.pdf)
 - Lab Setup files: [Labsetup.zip](xss\Labsetup.zip)
 
-Additional information on the SEED project [site](https://seedsecuritylabs.org/Labs_20.04/Web/Web_XSS_Elgg/).
-
-- You *must* provide a screenshot of the network traffic with each attack.
+- You are **required to provide a screenshot**, including the date and time, of the network traffic for each attack.
 
 #### Login information
 
-User | User Name | Password
------|----------|---------
-Admin | admin | seedelgg
-Alice | alice | seedalice
-Boby | boby | seedboby
-Charlie | charlie | seedcharlie
-Samy | samy | seedsamy
+| User    | User Name | Password    |
+| ------- | --------- | ----------- |
+| Admin   | admin     | seedelgg    |
+| Alice   | alice     | seedalice   |
+| Boby    | boby      | seedboby    |
+| Charlie | charlie   | seedcharlie |
+| Samy    | samy      | seedsamy    |
 
 - Example of add a friend script: <a href=".\xss\add-a-friend.txt" target="_blank">add-a-friend.js</a>
 - Example of update profile script: <a href=".\xss\update-profile.txt" target="_blank">update-profile.js</a>

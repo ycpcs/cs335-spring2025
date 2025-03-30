@@ -11,21 +11,21 @@ title: Lab - Cross-Site Request Forgery Attack
 - Lab Description: [CSRF Attack Lab.pdf](csrf\Web_CSRF_Elgg.pdf)
 - Lab Setup files: [Labsetup.zip](csrf\Labsetup.zip)
 
-- Make sure you answer the questions under Task 3.
-- You **must provide a screenshot** of the network traffic with each attack. Any tool is acceptable:
+- Be sure to answer all the questions in Task 3.
+- You are **required to provide a screenshot**, including the date and time, of the network traffic for each attack. Any tool is acceptable:
    - Wireshark
    - Browser Developer Tools
    - HTTP Header Live
 
 #### Login information
 
-User | User Name | Password
------|----------|---------
-Admin | admin | seedelgg
-Alice | alice | seedalice
-Boby | boby | seedboby
-Charlie | charlie | seedcharlie
-Samy | samy | seedsamy
+| User    | User Name | Password    |
+| ------- | --------- | ----------- |
+| Admin   | admin     | seedelgg    |
+| Alice   | alice     | seedalice   |
+| Boby    | boby      | seedboby    |
+| Charlie | charlie   | seedcharlie |
+| Samy    | samy      | seedsamy    |
 
 ### References
 
