@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [XSS](#xss)
 - [CSRF](#csrf)
 - [Web Security](#web-security)
 - [DNS](#dns)
@@ -24,6 +25,11 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### XSS
+- Setup files: [Labsetup.zip](../labs/xss/Labsetup.zip)
+- Example of add a friend script: <a href="../labs/xss/add-a-friend.txt" target="_blank">add-a-friend.js</a>
+- Example of update profile script: <a href="../labs/xss/update-profile.txt" target="_blank">update-profile.js</a>
 
 #### CSRF
   - [CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
