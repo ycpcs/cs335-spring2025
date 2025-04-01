@@ -30,7 +30,8 @@ This page contains links to notes and code snippets.
 - Setup files: [Labsetup.zip](../labs/xss/Labsetup.zip)
 - Example of add a friend script: <a href="../labs/xss/add-a-friend.txt" target="_blank">add-a-friend.js</a>
 - Example of update profile script: <a href="../labs/xss/update-profile.txt" target="_blank">update-profile.js</a>
-
+- Self Propagation test: <a href="../labs/xss/self-propagation.html" target="_blank">self-propagation.html</a>
+  
 #### CSRF
   - [CSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
   - Setup files: [Labsetup.zip](../labs/csrf/Labsetup.zip)
