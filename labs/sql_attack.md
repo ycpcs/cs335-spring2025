@@ -16,14 +16,14 @@ title: Lab - SQL Injection Lab
 
 #### Login information
 
-User |  Password
------|---------
-admin | seedadmin
-alice | seedalice
-boby | seedboby
-ryan | seedryan
-ted | seedted
-samy | seedsamy
+| User  | Password  |
+| ----- | --------- |
+| admin | seedadmin |
+| alice | seedalice |
+| boby  | seedboby  |
+| ryan  | seedryan  |
+| ted   | seedted   |
+| samy  | seedsamy  |
 
 ### Tips
 
