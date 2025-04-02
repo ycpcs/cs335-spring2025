@@ -6,6 +6,8 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Automating sqlmap](#automating-sqlmap)
+- [Installing .NET](#installing-net)
 - [SQL](#sql)
 - [XSS](#xss)
 - [CSRF](#csrf)
@@ -26,6 +28,28 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Automating sqlmap 
+ - ```wget https://github.com/sqlmapproject/sqlmap/archive/master.zip --no-check-certificate```
+ - sqlmap <a href="https://github.com/sqlmapproject/sqlmap/wiki/Usage/" target="_blank">usage</a>
+ - SqlmapRequest: <a href=".\sqlmap\SqlmapRequest.txt" target="_blank">SqlmapRequest.cs</a> 
+ - Program: <a href=".\sqlmap\Program.txt" target="_blank">Program.cs</a> 
+ - SqlmapApi: <a href=".\sqlmap\SqlmapApi.txt" target="_blank">SqlmapApi.cs</a> 
+ - SqlmapLog: <a href=".\sqlmap\SqlmapLog.txt" target="_blank">SqlmapLog.cs</a>
+  
+<a href="#">To top</a>
+
+#### Installing .NET
+- ```wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh --no-check-certificate```
+- ```chmod +x ./dotnet-install.sh```
+- ```./dotnet-install.sh --version latest```
+- Add the following to ```~/.bashrc```
+  - ```export DOTNET_ROOT=$HOME/.dotnet```
+  - ```export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools```
+- JSON serialization framework: <a href="https://github.com/JamesNK/Newtonsoft.Json" target="_blank">Json.NET</a>
+  - ```dotnet add package Newtonsoft.Json --version 13.0.3```
+  
+<a href="#">To top</a>
 
 #### SQL
 - Setup files: [Labsetup.zip](../labs/sqli/Labsetup.zip)
