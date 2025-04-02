@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [SQL](#sql)
 - [XSS](#xss)
 - [CSRF](#csrf)
 - [Web Security](#web-security)
@@ -25,6 +26,13 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### SQL
+- Setup files: [Labsetup.zip](../labs/sqli/Labsetup.zip)
+- Create Table: <a href=".\sql\create-table.txt" target="_blank">create-table.sql</a>
+- Insert Into: <a href=".\sql\insert-into.txt" target="_blank">insert-into.sql</a>
+  
+<a href="#">To top</a>
 
 #### XSS
 - Setup files: [Labsetup.zip](../labs/xss/Labsetup.zip)
