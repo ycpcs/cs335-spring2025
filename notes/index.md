@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Clickjack](#clickjack)
 - [Automating sqlmap](#automating-sqlmap)
 - [Installing .NET](#installing-net)
 - [SQL](#sql)
@@ -29,8 +30,15 @@ This page contains links to notes and code snippets.
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
 
+#### Clickjack 
+- iframe Demo: <a href=".\clickjack\index.txt" target="_blank">index.html</a> 
+- Labsetup: <a href=".\clickjack\Labsetup.zip">Labsetup.zip</a>
+
+<a href="#">To top</a>
+
 #### Automating sqlmap 
- - ```wget https://github.com/sqlmapproject/sqlmap/archive/master.zip --no-check-certificate```
+ - ```wget 'https://github.com/sqlmapproject/sqlmap/tarball/master' --output-document=sqlmap.tar.gz --no-check-certificate```
+ - ```tar -xvf sqlmap.tar.gz```
  - sqlmap <a href="https://github.com/sqlmapproject/sqlmap/wiki/Usage/" target="_blank">usage</a>
  - SqlmapRequest: <a href=".\sqlmap\SqlmapRequest.txt" target="_blank">SqlmapRequest.cs</a> 
  - Program: <a href=".\sqlmap\Program.txt" target="_blank">Program.cs</a> 
