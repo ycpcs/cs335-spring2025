@@ -6,7 +6,7 @@
 
 <body>
 	<br />
-	<iframe src="https://www.ycp.edu" height="300" width="90%"></iframe>
+	<iframe src="https://ycpcs.github.io/cs335-spring2025/" height="300" width="90%"></iframe>
 	<br />
 	<iframe src="https://seedsecuritylabs.org/" height="300" width="90%"></iframe>
 	<br />
