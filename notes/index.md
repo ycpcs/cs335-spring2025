@@ -48,6 +48,8 @@ This page contains links to notes and code snippets.
   - [joke.docx](pass\joke.docx)
   - [joke.pdf](pass\joke.pdf)
   - [joke.zip](pass\joke.zip)
+    - ```sudo apt install p7zip-full``` 
+    - ```7z x joke.zip```
   
 <a href="#">To top</a>
 
