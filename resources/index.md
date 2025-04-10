@@ -96,7 +96,7 @@ Password Crackers
 - [Ophcrack](https://ophcrack.sourceforge.io/) is a free Windows password cracker based on rainbow tables.
 - [THC-Hydra](https://github.com/vanhauser-thc/thc-hydra) is one of the most widely used _online_ hacking tool.
 - [aircrack-ng](https://www.aircrack-ng.org/) is probably the best Wi-Fi hacking software available.
-- Forgot your windows password? Try [ntpasswd](http://pogostick.net/~pnh/ntpasswd/).
+- Forgot your old windows box password? Try [ntpasswd](http://pogostick.net/~pnh/ntpasswd/).
 
 Steganography/Content Discovery
 ------------------------------------
