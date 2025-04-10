@@ -86,6 +86,7 @@ Network Spoofing
 Password Crackers
 ------------------------------------
 - [Hash Suite](https://hashsuite.openwall.net/) is a Windows program to test security of password hashes.
+- [hashcat](https://hashcat.net/hashcat/) is the world's fastest and most advanced password recovery utility.
 - [John the Ripper](https://www.openwall.com/john/) is a fast Open Source password cracker.
   - The official [repo](https://github.com/magnumripper/JohnTheRipper/).
   - The [password hash file](http://contest-2012.korelogic.com/) bundle from the KoreLogic 2012 DEFCON challenge. Decompress with ```bzip2 -dk cmiyc_2012_password_hash_files.tar.bz2```.
