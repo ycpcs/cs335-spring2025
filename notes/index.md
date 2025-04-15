@@ -39,6 +39,10 @@ This page contains links to notes and code snippets.
   - ```./configure```
   - ```make -s clean && make -sj4```
   - ```pip install --user dpkt```
+- Single Crack Example:
+  - ```echo -n 'pAsSwOrD' | sha256sum```
+  - ```echo -n 'password:e37017560675e0e20ef952202f15099012e8840a089649d6680ed2d7eb34fcdf' > password.txt```
+  - ```sudo ./john --format=raw-sha256 --single password.txt```
 - Wordlists
   - [rockyou.txt](pass\rockyou.txt.tar.gz), extract with ```tar -xvf rockyou.txt.tar.gz```
   - [https://www.openwall.com/wordlists/](https://www.openwall.com/wordlists/)
