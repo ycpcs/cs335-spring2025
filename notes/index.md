@@ -36,7 +36,6 @@ This page contains links to notes and code snippets.
   - ```git clone https://github.com/magnumripper/JohnTheRipper.git```
   - ```cd ./JohnTheRipper/src```
   - ```sudo apt-get install libssl-dev```
-  - ```cd src```
   - ```./configure```
   - ```make -s clean && make -sj4```
   - ```pip install --user dpkt```
