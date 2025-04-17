@@ -79,6 +79,19 @@ services:
       net-192.168.60.0:
         ipv4_address: 192.168.60.104
 
+  ftpd_server:
+    image: stilliard/pure-ftpd
+    container_name: pure-ftpd
+    environment:
+      PUBLICHOST: "localhost"
+      FTP_USER_NAME: username
+      FTP_USER_PASS: mypass
+      FTP_USER_HOME: /home/username
+    restart: always
+    networks:
+      net-192.168.60.0:
+        ipv4_address: 192.168.60.105
+
 networks:
   net-192.168.60.0:
     name: net-192.168.60.0
