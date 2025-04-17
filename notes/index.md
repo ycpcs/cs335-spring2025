@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Host Discovery](#host-discovery)
 - [Password Cracking](#password-cracking)
 - [Clickjack](#clickjack)
 - [Automating sqlmap](#automating-sqlmap)
@@ -31,6 +32,19 @@ This page contains links to notes and code snippets.
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
 
+#### Host Discovery
+- Docker Compose: <a href=".\discover\docker-compose.yaml" target="_blank">docker-compose.yaml</a>
+- Ports: 20,21,22,23,25,53,80,88,110,443,445,989,990,993,995,1433,1434,2222,3306,3389,5432,5800,8080,8443  
+- Test [DVWA](https://github.com/digininja/DVWA)
+  - Open ```http://localhost:8081```
+  - admin:password
+- Test [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)
+  - Open ```http://localhost:3000```
+- Clean up docker:
+  - ```docker stop $(docker ps -a -q)```
+  - ```docker rm $(docker ps -a -q)```
+  - ```docker system prune -a```
+  
 #### Password Cracking
 - John The Ripper
   - ```git clone https://github.com/magnumripper/JohnTheRipper.git```
