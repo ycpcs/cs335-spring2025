@@ -6,6 +6,7 @@ title: "Code Snippets"
 
 This page contains links to notes and code snippets.
 
+- [Vulnerability Discovery](#vulnerability-discovery)
 - [Host Discovery](#host-discovery)
 - [Password Cracking](#password-cracking)
 - [Clickjack](#clickjack)
@@ -31,6 +32,11 @@ This page contains links to notes and code snippets.
 - [Networking](#networking-1)
 - [Process commands](#process-commands)
 - [Clone a website](#clone-a-website)
+
+#### Vulnerability Discovery
+- ```sudo apt-get update```
+- ```sudo apt install openjdk-21-jre-headless```
+- [Burp Suite Community](https://portswigger.net/burp/releases/professional-community-2025-3-3)
 
 #### Host Discovery
 - Docker Compose: <a href=".\discover\docker-compose.yaml" target="_blank">docker-compose.yaml</a>

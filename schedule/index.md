@@ -46,8 +46,8 @@ IS: <a href="https://ycp.textbookx.com/book/Internet-Security-A-HandsOn-Approach
 > 12 | Apr 15 | Host and Service Discovery | |
 > 12 | Apr 17 | Open Source Intelligence: <a href="https://osintframework.com/" target="_blank">OSINT Framework</a> | |
 > | | | |
-> 13 | Apr 22 | | |
-> 13 | Apr 24 | | |
+> 13 | Apr 22 | Final Project Work | |
+> 13 | Apr 24 | [Public-Key Infrastructure (PKI)](../slides/PKI.pdf) | IS: Ch 18 |
 > | | | |
 > 14 | Apr 29 | __Exam 2__ | |
 > 14 | May 01 | Thread Modeling | |
