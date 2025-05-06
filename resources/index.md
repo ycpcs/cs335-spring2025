@@ -176,6 +176,7 @@ Security Threats
 - [The CAPTCHA Project](http://www.captcha.net/) Telling Humans and Computers Apart.
 - [CVE Details](https://www.cvedetails.com/) the ultimate security vulnerability data source.
 - [Common Vulnerability Scoring System Calculator](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)
+- [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html)
 
 Bounty Platform
 -----------------------------------
